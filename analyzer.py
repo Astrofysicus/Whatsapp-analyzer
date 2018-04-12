@@ -10,8 +10,6 @@ from flask_session import Session
 from datetime import datetime
 from dateutil.parser import parse
 from optparse import OptionParser
-reload(sys)
-sys.setdefaultencoding("utf-8")
 
 UPLOAD_FOLDER = 'data/'
 ALLOWED_EXTENSIONS = set(['txt'])
